@@ -39,5 +39,5 @@ Hardware & Security  : ESP32-S3, AES-256 Optical Comm, Tor / Onion Protocols, Ne
 ---
 
 <div align="center">
-  <sub>Connect with me: <a href="mailto:eroltasci94@gmail.com">eroltasci94@gmail.com</a> · <a href="https://ekinmedikal.com">ekinmedikal.com</a></sub>
+  <sub>Connect with me: <a href="mailto:voyagerroc@voyagerroctechnologies.com">voyagerroc@voyagerroctechnologies.com</a> · <a href="mailto:eroltasci94@gmail.com">eroltasci94@gmail.com</a> · <a href="https://ekinmedikal.com">ekinmedikal.com</a></sub>
 </div>
