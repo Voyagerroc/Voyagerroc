@@ -4,6 +4,14 @@
   <p>Building local-first agentic infrastructure, hardware-level air-gapped communications, and high-performance intelligence platforms.</p>
 </div>
 
+<!-- voyagerroc-brand:start -->
+### Voyagerroc Technologies
+
+[**voyagerroctechnologies.com**](https://voyagerroctechnologies.com/) — web and mobile applications, SaaS product work, and Si-assisted workflows.
+
+Explore [PayRadar — recurring payment tracking](https://voyagerroctechnologies.com/urunler/payradar/), [LaserDeck PTT — Bluetooth communication](https://voyagerroctechnologies.com/urunler/laserdeck/) and [EİP — evidence-based candidate evaluation](https://voyagerroctechnologies.com/urunler/eip/). Product stages, available access and limitations are documented on each page.
+<!-- voyagerroc-brand:end -->
+
 ---
 
 ### 🔭 Focus Areas & Domains of Interest
