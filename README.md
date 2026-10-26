@@ -31,3 +31,6 @@ Product pages describe access, current scope and limitations.
 ## Kurucu profili / Founder profile
 
 [Kurucunun kişisel LinkedIn profili / Founder’s personal LinkedIn profile](https://www.linkedin.com/in/erol-t-66791821a/)
+
+
+[Voyagerroc Technologies — LinkedIn marka sayfası / Company page](https://www.linkedin.com/company/voyagerroc-technologies/)
