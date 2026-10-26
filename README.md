@@ -1,51 +1,25 @@
-<div align="center">
-  <h1>Erol Taşcı</h1>
-  <p><strong>Systems Engineer · AI Infrastructure & Autonomous Agents · Hardware & Security</strong></p>
-  <p>Building local-first agentic infrastructure, hardware-level air-gapped communications, and high-performance intelligence platforms.</p>
-</div>
+# Voyagerroc Technologies
 
-<!-- voyagerroc-brand:start -->
-### Voyagerroc Technologies
+[**voyagerroctechnologies.com**](https://voyagerroctechnologies.com/)
 
-[**voyagerroctechnologies.com**](https://voyagerroctechnologies.com/) — web and mobile applications, SaaS product work, and Si-assisted workflows.
+Web ve mobil uygulamalar, SaaS ürün çalışmaları ve Si destekli iş akışları.
+Web and mobile applications, SaaS product work and Si-assisted workflows.
 
-Explore [PayRadar — recurring payment tracking](https://voyagerroctechnologies.com/urunler/payradar/), [LaserDeck PTT — Bluetooth communication](https://voyagerroctechnologies.com/urunler/laserdeck/) and [EİP — evidence-based candidate evaluation](https://voyagerroctechnologies.com/urunler/eip/). Product stages, available access and limitations are documented on each page.
-<!-- voyagerroc-brand:end -->
+## Ürünler / Products
 
----
+- [PayRadar — abonelik ve ödeme takibi](https://voyagerroctechnologies.com/urunler/payradar/)
+- [LaserDeck PTT — Bluetooth bas-konuş](https://voyagerroctechnologies.com/urunler/laserdeck/)
+- [EİP — belge ve çalışma örnekleriyle aday değerlendirme](https://voyagerroctechnologies.com/urunler/eip/)
+- [Pharos Onion Researcher — hibrit arama ve kaynak ilişkileri](https://voyagerroctechnologies.com/urunler/pharos/)
+- [Bungalow OS — konaklama operasyonları](https://voyagerroctechnologies.com/urunler/bungalow/)
 
-### 🔭 Focus Areas & Domains of Interest
+Ürün sayfaları erişim durumunu, mevcut kapsamı ve sınırları açıklar.
+Product pages describe access, current scope and limitations.
 
-* **🤖 Autonomous AI Agents & Fleet Orchestration**
-  * Architecture of autonomous multi-agent pipelines, MCP (Model Context Protocol) servers, tool evaluation, and AST-based knowledge graphs.
-  * Meta-prompt engineering, contextual long-term memory architectures, and local-first coding agents.
+## Ürün geliştirme notları / Engineering notes
 
-* **🔒 Security, Privacy & Air-Gapped Systems**
-  * Hardware security, zero-RF optical laser communications (ESP32-S3 / AES-256 air-gapped transceivers).
-  * Real-time Data Loss Prevention (DLP) proxies, PII & secret redacting for LLM traffic, enterprise audit logging.
-  * Onion service crawlers, full-text indexing over privacy networks, and threat isolation.
+[PayRadar: Web Push sorununu inceleme ve doğrulama](https://voyagerroctechnologies.com/notlar/payradar-web-push-bildirimleri/)
 
-* **📊 Applied Analytics & Hybrid Inference Engines**
-  * Predictive mathematical models (Elo & Poisson distribution simulation engines).
-  * Hybrid LLM reasoning pipelines fusing local and cloud-based inference (Gemini, NVIDIA, Claude).
+## Proje görüşmeleri / Project enquiries
 
-* **🌐 High-Performance Modern Web & Edge Systems**
-  * Edge computing on Cloudflare Workers & Pages, Google Cloud Run, and containerized Docker environments.
-  * Modern CSS architectures, scroll-driven UI, WebAssembly integration, and reactive frontends.
-
----
-
-### 🛠️ Tech Stack & Tooling
-
-```text
-Languages & Runtimes : Python, TypeScript / JavaScript, Go, C / C++ (Embedded/ESP32), SQL
-AI & Agentic Systems : Google Antigravity, MCP, Gemini API, Claude API, Graphify, LangChain
-Infrastructure & DB  : Docker, Cloudflare Workers/Pages, Google Cloud Run, PostgreSQL, Redis, Elasticsearch
-Hardware & Security  : ESP32-S3, AES-256 Optical Comm, Tor / Onion Protocols, Network DLP
-```
-
----
-
-<div align="center">
-  <sub>Connect with me: <a href="mailto:voyagerroc@voyagerroctechnologies.com">voyagerroc@voyagerroctechnologies.com</a> · <a href="mailto:eroltasci94@gmail.com">eroltasci94@gmail.com</a> · <a href="https://ekinmedikal.com">ekinmedikal.com</a></sub>
-</div>
+[Çalışma alanları ve iletişim](https://voyagerroctechnologies.com/#contact)
