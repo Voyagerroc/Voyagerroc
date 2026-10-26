@@ -2,8 +2,12 @@
 
 [**voyagerroctechnologies.com**](https://voyagerroctechnologies.com/)
 
-Web ve mobil uygulamalar, SaaS ürün çalışmaları ve Si destekli iş akışları.
-Web and mobile applications, SaaS product work and Si-assisted workflows.
+Voyagerroc Technologies; PayRadar, LaserDeck PTT ve EİP ürünleriyle web, mobil uygulamalar, SaaS çalışmaları ve Si iş akışlarına odaklanan yazılım markasıdır.
+
+Voyagerroc Technologies is an independent software brand developing web and mobile applications, SaaS product work and Si-assisted workflows. Its portfolio includes PayRadar, LaserDeck PTT and EİP.
+
+
+[Resmî marka bilgileri / About Voyagerroc Technologies](https://voyagerroctechnologies.com/hakkimizda/)
 
 ## Ürünler / Products
 
