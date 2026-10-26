@@ -27,3 +27,7 @@ Product pages describe access, current scope and limitations.
 ## Proje görüşmeleri / Project enquiries
 
 [Çalışma alanları ve iletişim](https://voyagerroctechnologies.com/#contact)
+
+## Kurucu profili / Founder profile
+
+[Kurucunun kişisel LinkedIn profili / Founder’s personal LinkedIn profile](https://www.linkedin.com/in/erol-t-66791821a/)
