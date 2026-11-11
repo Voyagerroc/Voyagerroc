@@ -6,7 +6,8 @@
 
 [![GitHub Profile Views](https://komarev.com/ghpvc/?username=Voyagerroc&label=PROFILE+VIEWS&style=flat-square&color=38bdf8)](https://github.com/Voyagerroc)
 [![License: MIT](https://img.shields.io/badge/License-MIT-38bdf8?style=flat-square)](LICENSE)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Erol_T.-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/erol-t-66791821a/)
+[![Company LinkedIn](https://img.shields.io/badge/Company_LinkedIn-Voyagerroc_Technologies-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/voyagerroc-technologies/)
+[![Personal LinkedIn](https://img.shields.io/badge/Personal_LinkedIn-Erol_T.-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/erol-t-66791821a/)
 [![Website](https://img.shields.io/badge/Website-voyagerroctechnologies.com-4f46e5?style=flat-square&logo=cloudflare&logoColor=white)](https://voyagerroctechnologies.com)
 [![Email](https://img.shields.io/badge/Email-erol%40voyagerroctechnologies.com-ea4335?style=flat-square&logo=gmail&logoColor=white)](mailto:erol@voyagerroctechnologies.com)
 

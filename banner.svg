@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 230" width="100%" height="230" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 240" width="100%" height="240" fill="none">
   <defs>
     <!-- Background Gradients -->
     <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0b0f19" />
-      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="0%" stop-color="#070b14" />
+      <stop offset="45%" stop-color="#0b1329" />
       <stop offset="100%" stop-color="#020617" />
     </linearGradient>
 
@@ -15,17 +15,17 @@
     </linearGradient>
 
     <!-- Subtle Orb Gradients -->
-    <radialGradient id="glowCyan" cx="0%" cy="0%" r="80%">
-      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.25" />
+    <radialGradient id="glowCyan" cx="15%" cy="20%" r="80%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.32" />
       <stop offset="100%" stop-color="#0284c7" stop-opacity="0" />
     </radialGradient>
-    <radialGradient id="glowPurple" cx="100%" cy="100%" r="80%">
-      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.22" />
+    <radialGradient id="glowPurple" cx="85%" cy="80%" r="80%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.28" />
       <stop offset="100%" stop-color="#7c3aed" stop-opacity="0" />
     </radialGradient>
 
     <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1e293b" stroke-width="0.8" stroke-opacity="0.4" />
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1e293b" stroke-width="0.8" stroke-opacity="0.45" />
     </pattern>
   </defs>
 
@@ -33,72 +33,104 @@
     .font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
     .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
     .pulse { animation: pulse 3s ease-in-out infinite alternate; }
-    @keyframes pulse { from { opacity: 0.4; } to { opacity: 0.8; } }
+    @keyframes pulse { from { opacity: 0.45; } to { opacity: 0.9; } }
+    .badge-link { cursor: pointer; transition: opacity 0.2s ease; }
+    .badge-link:hover { opacity: 0.85; }
   </style>
 
   <!-- Background Card -->
-  <rect width="850" height="230" rx="14" fill="url(#bgGradient)" stroke="#1e293b" stroke-width="1.5" />
+  <rect width="850" height="240" rx="14" fill="url(#bgGradient)" stroke="#1e293b" stroke-width="1.5" />
   
   <!-- Subtle Grid Pattern -->
-  <rect width="850" height="230" rx="14" fill="url(#grid)" />
+  <rect width="850" height="240" rx="14" fill="url(#grid)" />
   
   <!-- Ambient Glow Spots -->
-  <circle cx="100" cy="40" r="160" fill="url(#glowCyan)" />
-  <circle cx="760" cy="180" r="180" fill="url(#glowPurple)" />
+  <circle cx="120" cy="50" r="180" fill="url(#glowCyan)" />
+  <circle cx="740" cy="190" r="190" fill="url(#glowPurple)" />
 
+  <!-- ================= TOP NAVIGATION & BRAND BAR ================= -->
   <!-- Corner Terminal Dots -->
-  <circle cx="32" cy="28" r="4.5" fill="#ef4444" opacity="0.8" />
-  <circle cx="48" cy="28" r="4.5" fill="#f59e0b" opacity="0.8" />
-  <circle cx="64" cy="28" r="4.5" fill="#10b981" opacity="0.8" />
-  <text x="84" y="32" fill="#64748b" font-size="12" font-weight="500" class="font-mono">voyagerroc-technologies@core ~</text>
+  <circle cx="28" cy="25" r="4.5" fill="#ef4444" opacity="0.85" />
+  <circle cx="43" cy="25" r="4.5" fill="#f59e0b" opacity="0.85" />
+  <circle cx="58" cy="25" r="4.5" fill="#10b981" opacity="0.85" />
 
-  <!-- Main Identity Content -->
-  <g transform="translate(32, 58)">
-    <!-- Subtitle / Prompt Tag -->
-    <rect x="0" y="0" width="295" height="24" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1" />
-    <circle cx="12" cy="12" r="3" fill="#38bdf8" />
-    <text x="22" y="16" fill="#94a3b8" font-size="11" font-weight="600" class="font-mono">AI-AUGMENTED SYSTEMS &amp; ENGINEERING</text>
+  <!-- Prominent Website Address (Top Left) -->
+  <a href="https://voyagerroctechnologies.com" target="_blank" class="badge-link">
+    <g transform="translate(76, 12)">
+      <rect width="232" height="26" rx="6" fill="#0c1e38" fill-opacity="0.85" stroke="#38bdf8" stroke-width="1.2" />
+      <circle cx="13" cy="13" r="3.5" fill="#38bdf8" />
+      <text x="24" y="17.5" fill="#38bdf8" font-size="11.5" font-weight="700" class="font-mono">🌐 voyagerroctechnologies.com</text>
+    </g>
+  </a>
 
-    <!-- Main Heading -->
-    <text x="0" y="58" fill="#ffffff" font-size="31" font-weight="800" class="font-sans" letter-spacing="-0.02em">
-      Erol <tspan fill="url(#textGrad)">· Voyagerroc Technologies</tspan>
-    </text>
+  <!-- Prominent Company LinkedIn (Top Right) -->
+  <a href="https://www.linkedin.com/company/voyagerroc-technologies/" target="_blank" class="badge-link">
+    <g transform="translate(562, 12)">
+      <rect width="258" height="26" rx="6" fill="#0d2342" fill-opacity="0.85" stroke="#0a66c2" stroke-width="1.2" />
+      <!-- Mini LinkedIn 'in' Icon -->
+      <rect x="8" y="5.5" width="15" height="15" rx="3" fill="#0a66c2" />
+      <text x="11.5" y="16.5" fill="#ffffff" font-size="10" font-weight="800" class="font-sans">in</text>
+      <text x="29" y="17.5" fill="#60a5fa" font-size="11" font-weight="600" class="font-mono">/company/voyagerroc-tech</text>
+    </g>
+  </a>
 
-    <!-- Descriptor -->
-    <text x="0" y="86" fill="#94a3b8" font-size="14" font-weight="400" class="font-sans">
-      Building robust software, AI-driven architectures, and secure autonomous systems.
-    </text>
+  <!-- ================= MAIN IDENTITY CONTENT ================= -->
+  <!-- Subtitle Tag -->
+  <g transform="translate(28, 54)">
+    <rect x="0" y="0" width="310" height="22" rx="11" fill="#0f172a" stroke="#334155" stroke-width="1" />
+    <circle cx="11" cy="11" r="3" fill="#10b981" />
+    <text x="22" y="15" fill="#94a3b8" font-size="10.5" font-weight="600" class="font-mono">AI-AUGMENTED SYSTEMS &amp; ENGINEERING</text>
+  </g>
 
-    <!-- Feature Badges / Pills -->
-    <g transform="translate(0, 108)">
-      <!-- Pill 1 -->
-      <g transform="translate(0, 0)">
-        <rect width="138" height="24" rx="6" fill="#1e293b" fill-opacity="0.8" stroke="#334155" stroke-width="1" />
-        <text x="10" y="16.5" fill="#38bdf8" font-size="11" font-weight="600" class="font-mono">🛡️ Zero-Trust &amp; DLP</text>
-      </g>
-      <!-- Pill 2 -->
-      <g transform="translate(146, 0)">
-        <rect width="156" height="24" rx="6" fill="#1e293b" fill-opacity="0.8" stroke="#334155" stroke-width="1" />
-        <text x="10" y="16.5" fill="#a855f7" font-size="11" font-weight="600" class="font-mono">🚀 VoyagerRelay &amp; AI</text>
-      </g>
-      <!-- Pill 3 -->
-      <g transform="translate(310, 0)">
-        <rect width="144" height="24" rx="6" fill="#1e293b" fill-opacity="0.8" stroke="#334155" stroke-width="1" />
-        <text x="10" y="16.5" fill="#34d399" font-size="11" font-weight="600" class="font-mono">📟 Air-Gapped Optics</text>
-      </g>
-      <!-- Pill 4 -->
-      <g transform="translate(462, 0)">
-        <rect width="136" height="24" rx="6" fill="#1e293b" fill-opacity="0.8" stroke="#334155" stroke-width="1" />
-        <text x="10" y="16.5" fill="#fbbf24" font-size="11" font-weight="600" class="font-mono">🌐 Web &amp; Products</text>
-      </g>
+  <!-- Main Heading -->
+  <text x="28" y="108" fill="#ffffff" font-size="30" font-weight="800" class="font-sans" letter-spacing="-0.02em">
+    Erol <tspan fill="url(#textGrad)">· Voyagerroc Technologies</tspan>
+  </text>
+
+  <!-- Descriptor -->
+  <text x="28" y="134" fill="#94a3b8" font-size="13.5" font-weight="400" class="font-sans">
+    Building autonomous agent bridges, air-gapped hardware, and secure production systems.
+  </text>
+
+  <!-- ================= FEATURE BADGES / PILLS (UPDATED) ================= -->
+  <g transform="translate(28, 154)">
+    <!-- Pill 1: VoyagerRelay -->
+    <g transform="translate(0, 0)">
+      <rect width="146" height="24" rx="6" fill="#1e293b" fill-opacity="0.85" stroke="#818cf8" stroke-width="1" />
+      <text x="10" y="16.5" fill="#a5b4fc" font-size="11" font-weight="600" class="font-mono">🚀 VoyagerRelay &amp; AI</text>
+    </g>
+    <!-- Pill 2: LaserDeck -->
+    <g transform="translate(154, 0)">
+      <rect width="134" height="24" rx="6" fill="#1e293b" fill-opacity="0.85" stroke="#34d399" stroke-width="1" />
+      <text x="10" y="16.5" fill="#34d399" font-size="11" font-weight="600" class="font-mono">📟 LaserDeck PTT</text>
+    </g>
+    <!-- Pill 3: Zero-Trust & DLP -->
+    <g transform="translate(296, 0)">
+      <rect width="148" height="24" rx="6" fill="#1e293b" fill-opacity="0.85" stroke="#38bdf8" stroke-width="1" />
+      <text x="10" y="16.5" fill="#38bdf8" font-size="11" font-weight="600" class="font-mono">🛡️ Zero-Trust &amp; DLP</text>
+    </g>
+    <!-- Pill 4: Web & Products -->
+    <g transform="translate(452, 0)">
+      <rect width="154" height="24" rx="6" fill="#1e293b" fill-opacity="0.85" stroke="#fbbf24" stroke-width="1" />
+      <text x="10" y="16.5" fill="#fbbf24" font-size="11" font-weight="600" class="font-mono">🌐 Web &amp; Products OS</text>
     </g>
   </g>
 
-  <!-- Right Geometric / Network Graphic -->
-  <g transform="translate(710, 115)" class="pulse">
+  <!-- ================= BOTTOM STATUS FOOTER ================= -->
+  <g transform="translate(28, 214)">
+    <circle cx="5" cy="5" r="3" fill="#10b981" />
+    <text x="14" y="9" fill="#64748b" font-size="10.5" font-weight="500" class="font-mono">STATUS: ACTIVE PRODUCTION</text>
+    <text x="195" y="9" fill="#334155" font-size="10.5" font-weight="500" class="font-mono">|</text>
+    <text x="210" y="9" fill="#64748b" font-size="10.5" font-weight="500" class="font-mono">HYBRID AGENTS · OPTICS · PROTOCOLS</text>
+    <text x="475" y="9" fill="#334155" font-size="10.5" font-weight="500" class="font-mono">|</text>
+    <text x="490" y="9" fill="#38bdf8" font-size="10.5" font-weight="500" class="font-mono">github.com/Voyagerroc</text>
+  </g>
+
+  <!-- ================= RIGHT GEOMETRIC / NETWORK GRAPHIC ================= -->
+  <g transform="translate(735, 135)" class="pulse">
     <!-- Outer concentric dashed rings -->
-    <circle cx="0" cy="0" r="75" stroke="#334155" stroke-width="1" stroke-dasharray="4 6" fill="none" opacity="0.6" />
-    <circle cx="0" cy="0" r="50" stroke="#38bdf8" stroke-width="1.2" stroke-dasharray="2 4" fill="none" opacity="0.5" />
+    <circle cx="0" cy="0" r="70" stroke="#334155" stroke-width="1" stroke-dasharray="4 6" fill="none" opacity="0.55" />
+    <circle cx="0" cy="0" r="48" stroke="#38bdf8" stroke-width="1.2" stroke-dasharray="2 4" fill="none" opacity="0.5" />
     <circle cx="0" cy="0" r="28" stroke="#818cf8" stroke-width="1.5" fill="none" opacity="0.7" />
 
     <!-- Center Core Node -->
@@ -106,16 +138,16 @@
     <circle cx="0" cy="0" r="16" fill="#38bdf8" fill-opacity="0.25" />
 
     <!-- Satellite Nodes & Connection Lines -->
-    <line x1="0" y1="0" x2="-42" y2="-28" stroke="#38bdf8" stroke-width="1.2" opacity="0.7" />
-    <circle cx="-42" cy="-28" r="4" fill="#a855f7" />
+    <line x1="0" y1="0" x2="-38" y2="-26" stroke="#38bdf8" stroke-width="1.2" opacity="0.7" />
+    <circle cx="-38" cy="-26" r="4" fill="#a855f7" />
 
-    <line x1="0" y1="0" x2="38" y2="-32" stroke="#818cf8" stroke-width="1.2" opacity="0.7" />
-    <circle cx="38" cy="-32" r="4.5" fill="#38bdf8" />
+    <line x1="0" y1="0" x2="36" y2="-28" stroke="#818cf8" stroke-width="1.2" opacity="0.7" />
+    <circle cx="36" cy="-28" r="4.5" fill="#38bdf8" />
 
-    <line x1="0" y1="0" x2="44" y2="24" stroke="#34d399" stroke-width="1.2" opacity="0.7" />
-    <circle cx="44" cy="24" r="3.5" fill="#34d399" />
+    <line x1="0" y1="0" x2="40" y2="22" stroke="#34d399" stroke-width="1.2" opacity="0.7" />
+    <circle cx="40" cy="22" r="3.5" fill="#34d399" />
 
-    <line x1="0" y1="0" x2="-35" y2="35" stroke="#818cf8" stroke-width="1.2" opacity="0.7" />
-    <circle cx="-35" cy="35" r="4" fill="#f43f5e" />
+    <line x1="0" y1="0" x2="-32" y2="32" stroke="#818cf8" stroke-width="1.2" opacity="0.7" />
+    <circle cx="-32" cy="32" r="4" fill="#f43f5e" />
   </g>
 </svg>
