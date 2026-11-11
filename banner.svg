@@ -78,16 +78,16 @@
       </g>
       <!-- Pill 2 -->
       <g transform="translate(146, 0)">
-        <rect width="146" height="24" rx="6" fill="#1e293b" fill-opacity="0.8" stroke="#334155" stroke-width="1" />
-        <text x="10" y="16.5" fill="#a855f7" font-size="11" font-weight="600" class="font-mono">⚡ AI Agent Pipelines</text>
+        <rect width="156" height="24" rx="6" fill="#1e293b" fill-opacity="0.8" stroke="#334155" stroke-width="1" />
+        <text x="10" y="16.5" fill="#a855f7" font-size="11" font-weight="600" class="font-mono">🚀 VoyagerRelay &amp; AI</text>
       </g>
       <!-- Pill 3 -->
-      <g transform="translate(300, 0)">
+      <g transform="translate(310, 0)">
         <rect width="144" height="24" rx="6" fill="#1e293b" fill-opacity="0.8" stroke="#334155" stroke-width="1" />
         <text x="10" y="16.5" fill="#34d399" font-size="11" font-weight="600" class="font-mono">📟 Air-Gapped Optics</text>
       </g>
       <!-- Pill 4 -->
-      <g transform="translate(452, 0)">
+      <g transform="translate(462, 0)">
         <rect width="136" height="24" rx="6" fill="#1e293b" fill-opacity="0.8" stroke="#334155" stroke-width="1" />
         <text x="10" y="16.5" fill="#fbbf24" font-size="11" font-weight="600" class="font-mono">🌐 Web &amp; Products</text>
       </g>
