@@ -19,7 +19,7 @@ Yerel geliştirici araçları, incelenebilir yapay zekâ iş akışları ve çev
 | **[LaserDeck PTT](https://github.com/Voyagerroc/LaserDeck)** | Android/Kotlin phone-to-phone Bluetooth communication: push-to-talk, calls, messages and photos. / Telefonlar arası Bluetooth iletişim. | [Product and access status](https://voyagerroctechnologies.com/urunler/laserdeck/) |
 | **[notion2api](https://github.com/Voyagerroc/notion2api)** | Python/FastAPI bridge and CLI with a SQLite task queue. Uses an unofficial Notion web integration. / Ayrı çalıştırılabilir köprü ve CLI. | [Installation](https://github.com/Voyagerroc/notion2api#readme) |
 | **[Corporate website](https://github.com/Voyagerroc/voyagerroc-technologies-website)** | Bilingual product catalogue on Cloudflare Workers. / İki dilli ürün kataloğu. | [Live site](https://voyagerroctechnologies.com) |
-| **[Yason Terraces](https://github.com/Voyagerroc/yason-terraces)** | Architectural hospitality showcase. / Mimari konaklama vitrini. | [Source and local setup](https://github.com/Voyagerroc/yason-terraces#readme) |
+| **[Yason Terraces](https://github.com/Voyagerroc/yason-terraces)** | Architectural hospitality showcase. / Mimari konaklama vitrini. | [Live preview](https://voyagerroc.github.io/yason-terraces/) |
 
 **PayRadar** is a native Android payment and subscription tracker (Kotlin, Compose, Room); its former web app is retired. Source access is private. See the [public product page and access status](https://voyagerroctechnologies.com/urunler/payradar/).
 
