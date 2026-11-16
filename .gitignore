@@ -5,3 +5,5 @@ Thumbs.db
 *.tmp
 *.log
 *.draft*.md
+__pycache__/
+*.pyc
