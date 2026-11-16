@@ -7,4 +7,3 @@ Thumbs.db
 *.draft*.md
 __pycache__/
 *.pyc
-graphify-out/
