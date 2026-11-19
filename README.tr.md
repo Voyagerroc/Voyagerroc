@@ -50,7 +50,6 @@ Ben Erol Tasci. Voyagerroc Technologies adıyla çevrimdışı çalışan Androi
 ## Burada ayrıca
 
 - [yason-terraces](https://github.com/Voyagerroc/yason-terraces): mimari bir konaklama projesi için statik vitrin sitesi. [Canlı önizleme](https://voyagerroc.github.io/yason-terraces/)
-- [voyagerroc-technologies-website](https://github.com/Voyagerroc/voyagerroc-technologies-website): Cloudflare Workers üzerinde yayınlanan stüdyo sitesinin kaynak kodu.
 - [notion-ai-skill](https://github.com/Voyagerroc/notion-ai-skill): resmî olmayan yerel bir Notion AI köprüsü için ajan yönergeleri ve kurulum betikleri.
 - [notion2api](https://github.com/Voyagerroc/notion2api): Notion AI için resmî olmayan Python komut satırı aracı ve yerel API köprüsü. Notion AI'ye erişimi olan kendi hesabınız gerekir.
 
