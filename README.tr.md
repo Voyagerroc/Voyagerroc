@@ -1,11 +1,11 @@
 <p align="right"><a href="README.md">English</a></p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-tr-dark.webp">
-  <img src="assets/banner-tr-light.webp" alt="Erol Taşcı, Voyagerroc Technologies: çevrimdışı çalışan Android uygulamaları ve geliştiriciler için küçük araçlar; yanında kurgusal örnek verili gerçek bir PayRadar ekranı." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-v2-tr-dark.webp">
+  <img src="assets/banner-v2-tr-light.webp" alt="Erol Tasci, Voyagerroc Technologies: çevrimdışı çalışan Android uygulamaları ve geliştiriciler için küçük araçlar; yanında kurgusal örnek verili gerçek bir PayRadar ekranı." width="100%">
 </picture>
 
-Ben Erol Taşcı. Voyagerroc Technologies adıyla çevrimdışı çalışan Android uygulamaları ve geliştiriciler için küçük araçlar yapıyorum. İşe başlamadan önce kapsamı yazıyorum; aşağıdaki her proje neyin tamamlandığını, neyin tamamlanmadığını kendisi söyler.
+Ben Erol Tasci. Voyagerroc Technologies adıyla çevrimdışı çalışan Android uygulamaları ve geliştiriciler için küçük araçlar yapıyorum. İşe başlamadan önce kapsamı yazıyorum; aşağıdaki her proje neyin tamamlandığını, neyin tamamlanmadığını kendisi söyler.
 
 [Web sitesi](https://voyagerroctechnologies.com/) · [İletişim](https://voyagerroctechnologies.com/yasal/iletisim/) · [English](README.md)
 
@@ -22,12 +22,12 @@ Ben Erol Taşcı. Voyagerroc Technologies adıyla çevrimdışı çalışan Andr
 
 <a href="https://voyagerroctechnologies.com/urunler/payradar/">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/work-payradar-tr-dark.webp">
-  <img src="assets/work-payradar-tr-light.webp" alt="PayRadar, Google Play kapalı test: Android'de kira, fatura ve abonelik takibi; yanında kurgusal örnek verili gerçek bir emülatör ekranı." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/work-payradar-v2-4-0-tr-dark.webp">
+  <img src="assets/work-payradar-v2-4-0-tr-light.webp" alt="PayRadar, 2.4.0 sürümü, Google Play kapalı test: borçlar ve alacaklar tek akışta, gün özetiyle; yanında kurgusal örnek verili gerçek bir emülatör ekranı." width="100%">
 </picture>
 </a>
 
-**PayRadar** · Google Play'de kapalı test. Kira, fatura ve abonelikleri takip eden Android uygulaması; hatırlatmalar cihazda çalışır. Kaynak kodu özeldir. Ekran, kurgusal örnek verili gerçek bir emülatör görüntüsüdür. [Ürün sayfası](https://voyagerroctechnologies.com/urunler/payradar/)
+**PayRadar** · Google Play'de kapalı test, 2.4.0 sürümü. Ödeyeceklerinizi ve alacaklarınızı tek akışta izleyin; gün özeti, takvim ve plan da var, hatırlatmalar cihazda çalışır. Kaynak kodu özeldir. Ekran, kurgusal örnek verili gerçek bir emülatör görüntüsüdür. [Ürün sayfası](https://voyagerroctechnologies.com/urunler/payradar/)
 
 <a href="https://github.com/Voyagerroc/voyagerroc-forge">
 <picture>

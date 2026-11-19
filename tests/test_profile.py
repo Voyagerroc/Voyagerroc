@@ -175,7 +175,9 @@ class ProfileChecks(unittest.TestCase):
             for stale in ("in review", "In review", "good first issue", "<table", "| ---"):
                 self.assertNotIn(stale, text, f"{name} still contains {stale!r}")
         self.assertIn("Erol Tasci", (ROOT / "README.md").read_text(encoding="utf-8"))
-        self.assertIn("Erol Taşcı", (ROOT / "README.tr.md").read_text(encoding="utf-8"))
+        self.assertIn("Erol Tasci", (ROOT / "README.tr.md").read_text(encoding="utf-8"))
+        for name in ("README.md", "README.tr.md"):
+            self.assertNotIn("Taşcı", (ROOT / name).read_text(encoding="utf-8"), f"{name} spells the name with Turkish letters")
 
 
 if __name__ == "__main__":

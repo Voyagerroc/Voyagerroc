@@ -1,8 +1,8 @@
 <p align="right"><a href="README.tr.md">Türkçe</a></p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-en-dark.webp">
-  <img src="assets/banner-en-light.webp" alt="Erol Tasci, Voyagerroc Technologies: Android apps that work offline, and small tools for developers, beside a real PayRadar screen, in its Turkish interface, with fictional sample data." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-v2-en-dark.webp">
+  <img src="assets/banner-v2-en-light.webp" alt="Erol Tasci, Voyagerroc Technologies: Android apps that work offline, and small tools for developers, beside a real PayRadar screen, in its Turkish interface, with fictional sample data." width="100%">
 </picture>
 
 I'm Erol Tasci. I build Android apps that work offline and small tools for developers, as Voyagerroc Technologies. I write the scope down before the work starts, and each project below says what is finished and what is not.
@@ -22,12 +22,12 @@ I'm Erol Tasci. I build Android apps that work offline and small tools for devel
 
 <a href="https://voyagerroctechnologies.com/en/urunler/payradar/">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/work-payradar-en-dark.webp">
-  <img src="assets/work-payradar-en-light.webp" alt="PayRadar, closed test on Google Play: track rent, bills and subscriptions on Android, beside a real emulator screen, in its Turkish interface, with fictional sample data." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/work-payradar-v2-4-0-en-dark.webp">
+  <img src="assets/work-payradar-v2-4-0-en-light.webp" alt="PayRadar, version 2.4.0, closed test on Google Play: what you owe and what you are owed in one flow, with a day summary, beside a real emulator screen, in its Turkish interface, with fictional sample data." width="100%">
 </picture>
 </a>
 
-**PayRadar** · closed test on Google Play. Track rent, bills and subscriptions on Android, with local reminders. The source code is private. The screen is a real emulator capture with fictional sample data; the app interface is in Turkish. [Product page](https://voyagerroctechnologies.com/en/urunler/payradar/)
+**PayRadar** · closed test on Google Play, version 2.4.0. Follow what you owe and what you are owed in one flow, with a day summary, calendar and plan, and local reminders. The source code is private. The screen is a real emulator capture with fictional sample data; the app interface is in Turkish. [Product page](https://voyagerroctechnologies.com/en/urunler/payradar/)
 
 <a href="https://github.com/Voyagerroc/voyagerroc-forge">
 <picture>
