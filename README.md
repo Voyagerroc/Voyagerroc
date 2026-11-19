@@ -36,7 +36,7 @@ I'm Erol Tasci. I build Android apps that work offline and small tools for devel
 </picture>
 </a>
 
-**Voyagerroc Forge** · v0.3.0 pre-release. A change that carries its own proof: Forge records a change with its pinned commit, the exact diff, SHA-256 digests and named checks, and anyone can verify the record again. It runs locally for one user, and the hashes carry no signature. The screen is a capture of Forge's own interface on a local fixture. [Repository](https://github.com/Voyagerroc/voyagerroc-forge) · [Release&nbsp;v0.3.0](https://github.com/Voyagerroc/voyagerroc-forge/releases/tag/v0.3.0)
+**Voyagerroc Forge** · v0.3.0 pre-release. A change that carries its own proof: Forge records a change with its pinned commit, the exact diff, SHA-256 digests and named checks, and anyone can re-check the source, the exact change and the static checks. It runs locally for one user, and the hashes carry no signature. The screen is a capture of Forge's own interface on a local fixture. [Repository](https://github.com/Voyagerroc/voyagerroc-forge) · [Release&nbsp;v0.3.0](https://github.com/Voyagerroc/voyagerroc-forge/releases/tag/v0.3.0)
 
 <a href="https://github.com/Voyagerroc/AptFlow">
 <picture>

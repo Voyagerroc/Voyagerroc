@@ -36,7 +36,7 @@ Ben Erol Tasci. Voyagerroc Technologies adıyla çevrimdışı çalışan Androi
 </picture>
 </a>
 
-**Voyagerroc Forge** · v0.3.0 ön sürüm. Kendi kanıtını taşıyan değişiklik: Forge bir değişikliği sabitlenmiş commit'i, birebir diff'i, SHA-256 değerleri ve adlandırılmış kontrolleriyle kaydeder; kaydı herkes yeniden doğrulayabilir. Tek kullanıcı için yerelde çalışır, hash değerlerinde imza yoktur. Ekran, Forge'un kendi arayüzünün yerel bir test düzeneğindeki görüntüsüdür. [Depo](https://github.com/Voyagerroc/voyagerroc-forge) · [v0.3.0&nbsp;sürümü](https://github.com/Voyagerroc/voyagerroc-forge/releases/tag/v0.3.0)
+**Voyagerroc Forge** · v0.3.0 ön sürüm. Kendi kanıtını taşıyan değişiklik: Forge bir değişikliği sabitlenmiş commit'i, birebir diff'i, SHA-256 değerleri ve adlandırılmış kontrolleriyle kaydeder; kaynağı, birebir değişikliği ve statik kontrolleri herkes yeniden denetleyebilir. Tek kullanıcı için yerelde çalışır, hash değerlerinde imza yoktur. Ekran, Forge'un kendi arayüzünün yerel bir test düzeneğindeki görüntüsüdür. [Depo](https://github.com/Voyagerroc/voyagerroc-forge) · [v0.3.0&nbsp;sürümü](https://github.com/Voyagerroc/voyagerroc-forge/releases/tag/v0.3.0)
 
 <a href="https://github.com/Voyagerroc/AptFlow">
 <picture>
