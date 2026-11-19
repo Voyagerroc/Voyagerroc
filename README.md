@@ -50,7 +50,6 @@ I'm Erol Tasci. I build Android apps that work offline and small tools for devel
 ## Also here
 
 - [yason-terraces](https://github.com/Voyagerroc/yason-terraces): a static showcase site for an architectural hospitality project. [Live preview](https://voyagerroc.github.io/yason-terraces/)
-- [voyagerroc-technologies-website](https://github.com/Voyagerroc/voyagerroc-technologies-website): the source of the studio's website, hosted on Cloudflare Workers.
 - [notion-ai-skill](https://github.com/Voyagerroc/notion-ai-skill): agent instructions and installers for an unofficial local Notion AI bridge.
 - [notion2api](https://github.com/Voyagerroc/notion2api): an unofficial Python command-line tool and local API bridge for Notion AI. It needs your own eligible account.
 
