@@ -31,12 +31,12 @@ I'm Erol Tasci. I build Android apps that work offline and small tools for devel
 
 <a href="https://github.com/Voyagerroc/voyagerroc-forge">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/work-forge-en-dark.webp">
-  <img src="assets/work-forge-en-light.webp" alt="Voyagerroc Forge, v0.2.1, experimental: a local workflow that turns intent into inspectable patches, beside a real capture of its workspace." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/work-forge-v0-3-0-en-dark.webp">
+  <img src="assets/work-forge-v0-3-0-en-light.webp" alt="Voyagerroc Forge, v0.3.0 pre-release: a change that carries its own proof, beside a real capture of a Forge change record showing a passed run, its pinned source commit and the SHA-256 of its patch." width="100%">
 </picture>
 </a>
 
-**Voyagerroc Forge** · v0.2.1, experimental. A local workflow that turns intent into inspectable patches, with pinned source, scoped edits and named static checks. The screen is a capture of Forge's own interface on a local fixture. [Repository](https://github.com/Voyagerroc/voyagerroc-forge) · [Release&nbsp;v0.2.1](https://github.com/Voyagerroc/voyagerroc-forge/releases/tag/v0.2.1)
+**Voyagerroc Forge** · v0.3.0 pre-release. A change that carries its own proof: Forge records a change with its pinned commit, the exact diff, SHA-256 digests and named checks, and anyone can re-check the source, the exact change and the static checks. It runs locally for one user, and the hashes carry no signature. The screen is a capture of Forge's own interface on a local fixture. [Repository](https://github.com/Voyagerroc/voyagerroc-forge) · [Release&nbsp;v0.3.0](https://github.com/Voyagerroc/voyagerroc-forge/releases/tag/v0.3.0)
 
 <a href="https://github.com/Voyagerroc/AptFlow">
 <picture>

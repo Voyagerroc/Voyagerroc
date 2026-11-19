@@ -31,12 +31,12 @@ Ben Erol Tasci. Voyagerroc Technologies adıyla çevrimdışı çalışan Androi
 
 <a href="https://github.com/Voyagerroc/voyagerroc-forge">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/work-forge-tr-dark.webp">
-  <img src="assets/work-forge-tr-light.webp" alt="Voyagerroc Forge, v0.2.1, deneysel: niyeti incelenebilir yamalara çeviren yerel bir iş akışı; yanında çalışma alanının gerçek bir ekran görüntüsü." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/work-forge-v0-3-0-tr-dark.webp">
+  <img src="assets/work-forge-v0-3-0-tr-light.webp" alt="Voyagerroc Forge, v0.3.0 ön sürüm: kendi kanıtını taşıyan değişiklik; yanında geçen bir koşuyu, sabitlenmiş kaynak commit'ini ve yamanın SHA-256 değerini gösteren gerçek bir Forge değişiklik kaydı ekranı." width="100%">
 </picture>
 </a>
 
-**Voyagerroc Forge** · v0.2.1, deneysel. Niyeti incelenebilir yamalara çeviren yerel bir iş akışı: sabitlenmiş kaynak, kapsamlı düzenlemeler ve adlandırılmış statik kontroller. Ekran, Forge'un kendi arayüzünün yerel bir test düzeneğindeki görüntüsüdür. [Depo](https://github.com/Voyagerroc/voyagerroc-forge) · [v0.2.1&nbsp;sürümü](https://github.com/Voyagerroc/voyagerroc-forge/releases/tag/v0.2.1)
+**Voyagerroc Forge** · v0.3.0 ön sürüm. Kendi kanıtını taşıyan değişiklik: Forge bir değişikliği sabitlenmiş commit'i, birebir diff'i, SHA-256 değerleri ve adlandırılmış kontrolleriyle kaydeder; kaynağı, birebir değişikliği ve statik kontrolleri herkes yeniden denetleyebilir. Tek kullanıcı için yerelde çalışır, hash değerlerinde imza yoktur. Ekran, Forge'un kendi arayüzünün yerel bir test düzeneğindeki görüntüsüdür. [Depo](https://github.com/Voyagerroc/voyagerroc-forge) · [v0.3.0&nbsp;sürümü](https://github.com/Voyagerroc/voyagerroc-forge/releases/tag/v0.3.0)
 
 <a href="https://github.com/Voyagerroc/AptFlow">
 <picture>
