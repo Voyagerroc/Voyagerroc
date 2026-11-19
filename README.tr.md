@@ -5,7 +5,7 @@
   <img src="assets/banner-tr-light.webp" alt="Erol Taşcı, Voyagerroc Technologies: çevrimdışı çalışan Android uygulamaları ve geliştiriciler için küçük araçlar; yanında kurgusal örnek verili gerçek bir PayRadar ekranı." width="100%">
 </picture>
 
-Voyagerroc Technologies adıyla çevrimdışı çalışan Android uygulamaları ve geliştiriciler için küçük araçlar yapıyorum. İşe başlamadan önce kapsamı yazıyorum; aşağıdaki her proje neyin tamamlandığını, neyin tamamlanmadığını kendisi söyler.
+Ben Erol Taşcı. Voyagerroc Technologies adıyla çevrimdışı çalışan Android uygulamaları ve geliştiriciler için küçük araçlar yapıyorum. İşe başlamadan önce kapsamı yazıyorum; aşağıdaki her proje neyin tamamlandığını, neyin tamamlanmadığını kendisi söyler.
 
 [Web sitesi](https://voyagerroctechnologies.com/) · [İletişim](https://voyagerroctechnologies.com/yasal/iletisim/) · [English](README.md)
 
@@ -18,16 +18,16 @@ Voyagerroc Technologies adıyla çevrimdışı çalışan Android uygulamaları 
 </picture>
 </a>
 
-**LaserDeck** · v2.1.0 ön sürüm APK. İki telefon arasında Bluetooth ile bas-konuş. İnternet ya da hesap yok. Ekran, 2.1.0 hata ayıklama sürümünün Android emülatöründeki gerçek bir görüntüsüdür; ikinci telefon bağlı olmadığı için boşta durumundadır. [Depo](https://github.com/Voyagerroc/LaserDeck) · [v2.1.0 sürümü](https://github.com/Voyagerroc/LaserDeck/releases/tag/v2.1.0) · [Ürün sayfası](https://voyagerroctechnologies.com/urunler/laserdeck/)
+**LaserDeck** · v2.1.0 ön sürüm APK. İki telefon arasında Bluetooth ile bas-konuş. İnternet ya da hesap yok. Ekran, 2.1.0 hata ayıklama sürümünün Android emülatöründeki gerçek bir görüntüsüdür; ikinci telefon bağlı olmadığı için boşta durumundadır. Bu sürüm iki gerçek telefonda yeniden denenmemiştir. [Depo](https://github.com/Voyagerroc/LaserDeck) · [v2.1.0&nbsp;sürümü](https://github.com/Voyagerroc/LaserDeck/releases/tag/v2.1.0) · [Ürün sayfası](https://voyagerroctechnologies.com/urunler/laserdeck/)
 
 <a href="https://voyagerroctechnologies.com/urunler/payradar/">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/work-payradar-tr-dark.webp">
-  <img src="assets/work-payradar-tr-light.webp" alt="PayRadar, 2.4.0, Google Play kapalı test: Android'de kira, fatura ve abonelik takibi; yanında kurgusal örnek verili gerçek bir emülatör ekranı." width="100%">
+  <img src="assets/work-payradar-tr-light.webp" alt="PayRadar, Google Play kapalı test: Android'de kira, fatura ve abonelik takibi; yanında kurgusal örnek verili gerçek bir emülatör ekranı." width="100%">
 </picture>
 </a>
 
-**PayRadar** · 2.4.0, Google Play'de kapalı test. Kira, fatura ve abonelikleri takip eden Android uygulaması; hatırlatmalar cihazda çalışır. Kaynak kodu özeldir. Ekran, kurgusal örnek verili gerçek bir emülatör görüntüsüdür. [Ürün sayfası](https://voyagerroctechnologies.com/urunler/payradar/)
+**PayRadar** · Google Play'de kapalı test. Kira, fatura ve abonelikleri takip eden Android uygulaması; hatırlatmalar cihazda çalışır. Kaynak kodu özeldir. Ekran, kurgusal örnek verili gerçek bir emülatör görüntüsüdür. [Ürün sayfası](https://voyagerroctechnologies.com/urunler/payradar/)
 
 <a href="https://github.com/Voyagerroc/voyagerroc-forge">
 <picture>
@@ -36,7 +36,7 @@ Voyagerroc Technologies adıyla çevrimdışı çalışan Android uygulamaları 
 </picture>
 </a>
 
-**Voyagerroc Forge** · v0.2.1, deneysel. Niyeti incelenebilir yamalara çeviren yerel bir iş akışı: sabitlenmiş kaynak, kapsamlı düzenlemeler ve adlandırılmış statik kontroller. Ekran, Forge'un kendi arayüzünün yerel bir test düzeneğindeki görüntüsüdür. [Depo](https://github.com/Voyagerroc/voyagerroc-forge) · [v0.2.1 sürümü](https://github.com/Voyagerroc/voyagerroc-forge/releases/tag/v0.2.1)
+**Voyagerroc Forge** · v0.2.1, deneysel. Niyeti incelenebilir yamalara çeviren yerel bir iş akışı: sabitlenmiş kaynak, kapsamlı düzenlemeler ve adlandırılmış statik kontroller. Ekran, Forge'un kendi arayüzünün yerel bir test düzeneğindeki görüntüsüdür. [Depo](https://github.com/Voyagerroc/voyagerroc-forge) · [v0.2.1&nbsp;sürümü](https://github.com/Voyagerroc/voyagerroc-forge/releases/tag/v0.2.1)
 
 <a href="https://github.com/Voyagerroc/AptFlow">
 <picture>
@@ -45,14 +45,14 @@ Voyagerroc Technologies adıyla çevrimdışı çalışan Android uygulamaları 
 </picture>
 </a>
 
-**AptFlow** · v0.1.0 ön sürüm. Uzman araç iş akışları için Python başlangıç şablonu. Demo, sentetik veriyle çevrimdışı çalışır; canlı sağlayıcı bağdaştırıcıları henüz uygulanmamıştır. Terminal, `python aptflow.py --version` ve `python aptflow.py --help` komutlarının gerçek çıktısını kısaltılmış olarak gösterir. [Depo](https://github.com/Voyagerroc/AptFlow) · [v0.1.0 sürümü](https://github.com/Voyagerroc/AptFlow/releases/tag/v0.1.0)
+**AptFlow** · v0.1.0 ön sürüm. Uzman araç iş akışları için Python başlangıç şablonu. Demo, sentetik veriyle çevrimdışı çalışır; canlı sağlayıcı bağdaştırıcıları henüz uygulanmamıştır. Terminal, `python aptflow.py --version` ve `python aptflow.py --help` komutlarının gerçek çıktısını kısaltılmış olarak gösterir. [Depo](https://github.com/Voyagerroc/AptFlow) · [v0.1.0&nbsp;sürümü](https://github.com/Voyagerroc/AptFlow/releases/tag/v0.1.0)
 
 ## Burada ayrıca
 
 - [yason-terraces](https://github.com/Voyagerroc/yason-terraces): mimari bir konaklama projesi için statik vitrin sitesi. [Canlı önizleme](https://voyagerroc.github.io/yason-terraces/)
 - [voyagerroc-technologies-website](https://github.com/Voyagerroc/voyagerroc-technologies-website): Cloudflare Workers üzerinde yayınlanan stüdyo sitesinin kaynak kodu.
 - [notion-ai-skill](https://github.com/Voyagerroc/notion-ai-skill): resmî olmayan yerel bir Notion AI köprüsü için ajan yönergeleri ve kurulum betikleri.
-- [notion2api](https://github.com/Voyagerroc/notion2api): Notion AI için resmî olmayan Python komut satırı aracı ve yerel API köprüsü. Kendi uygun hesabınız gerekir.
+- [notion2api](https://github.com/Voyagerroc/notion2api): Notion AI için resmî olmayan Python komut satırı aracı ve yerel API köprüsü. Notion AI'ye erişimi olan kendi hesabınız gerekir.
 
 ## Dış projelere katkılar
 

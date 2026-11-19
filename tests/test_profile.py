@@ -147,6 +147,25 @@ class ProfileChecks(unittest.TestCase):
         self.assertTrue(any("in total" in x for x in self.issues(PAGE, binary=many)))
         self.assertEqual(self.issues(PAGE, binary={"assets/ok.webp": MAX_IMAGE_BYTES}), [])
 
+    def test_light_and_dark_images_come_in_pairs(self):
+        picture = ('<picture><source media="(prefers-color-scheme: dark)" srcset="assets/work-a-en-dark.webp">'
+                   '<img src="assets/work-a-en-light.webp" alt="A"></picture>')
+        binary = {"assets/work-a-en-dark.webp": 5, "assets/work-a-en-light.webp": 5}
+        self.assertEqual(self.issues(PAGE + picture, binary=binary), [])
+        lone = '<img src="assets/work-a-en-light.webp" alt="A">'
+        self.assertTrue(any("without its twin" in x for x in self.issues(PAGE + lone, binary=binary)))
+
+    def test_both_languages_must_show_the_same_images(self):
+        def picture(slug, lang):
+            return (f'<picture><source srcset="assets/{slug}-{lang}-dark.webp">'
+                    f'<img src="assets/{slug}-{lang}-light.webp" alt="A"></picture>\n')
+        binary = {f"assets/{s}-{l}-{t}.webp": 5 for s in ("work-a", "work-b") for l in ("en", "tr") for t in ("dark", "light")}
+        same = self.issues(PAGE + picture("work-a", "en"), turkish=PAGE_TR + picture("work-a", "tr"), binary=binary)
+        self.assertEqual(same, [])
+        drift = self.issues(PAGE + picture("work-a", "en") + picture("work-b", "en"),
+                            turkish=PAGE_TR + picture("work-a", "tr"), binary=binary)
+        self.assertTrue(any("use different images: work-b" in x for x in drift))
+
     def test_the_real_profile_passes_every_guard(self):
         links, issues = validate_profile(ROOT)
         self.assertEqual(issues, [])

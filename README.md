@@ -2,10 +2,10 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-en-dark.webp">
-  <img src="assets/banner-en-light.webp" alt="Erol Tasci, Voyagerroc Technologies: Android apps that work offline, and small tools for developers, beside a real PayRadar screen with fictional sample data." width="100%">
+  <img src="assets/banner-en-light.webp" alt="Erol Tasci, Voyagerroc Technologies: Android apps that work offline, and small tools for developers, beside a real PayRadar screen, in its Turkish interface, with fictional sample data." width="100%">
 </picture>
 
-I build Android apps that work offline and small tools for developers, as Voyagerroc Technologies. I write the scope down before the work starts, and each project below says what is finished and what is not.
+I'm Erol Tasci. I build Android apps that work offline and small tools for developers, as Voyagerroc Technologies. I write the scope down before the work starts, and each project below says what is finished and what is not.
 
 [Website](https://voyagerroctechnologies.com/en/) · [Contact](https://voyagerroctechnologies.com/en/legal/contact/) · [Türkçe](README.tr.md)
 
@@ -18,16 +18,16 @@ I build Android apps that work offline and small tools for developers, as Voyage
 </picture>
 </a>
 
-**LaserDeck** · v2.1.0 pre-release APK. Push-to-talk between two phones over Bluetooth. No internet or account. The screen is a real capture from the 2.1.0 debug build on an Android emulator, idle because no second phone was connected. [Repository](https://github.com/Voyagerroc/LaserDeck) · [Release v2.1.0](https://github.com/Voyagerroc/LaserDeck/releases/tag/v2.1.0) · [Product page](https://voyagerroctechnologies.com/en/urunler/laserdeck/)
+**LaserDeck** · v2.1.0 pre-release APK. Push-to-talk between two phones over Bluetooth. No internet or account. The screen is a real capture from the 2.1.0 debug build on an Android emulator, idle because no second phone was connected; the app interface is in Turkish. It has not been re-tested on two physical phones for this release. [Repository](https://github.com/Voyagerroc/LaserDeck) · [Release&nbsp;v2.1.0](https://github.com/Voyagerroc/LaserDeck/releases/tag/v2.1.0) · [Product page](https://voyagerroctechnologies.com/en/urunler/laserdeck/)
 
 <a href="https://voyagerroctechnologies.com/en/urunler/payradar/">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/work-payradar-en-dark.webp">
-  <img src="assets/work-payradar-en-light.webp" alt="PayRadar, 2.4.0, closed test on Google Play: track rent, bills and subscriptions on Android, beside a real emulator screen with fictional sample data." width="100%">
+  <img src="assets/work-payradar-en-light.webp" alt="PayRadar, closed test on Google Play: track rent, bills and subscriptions on Android, beside a real emulator screen, in its Turkish interface, with fictional sample data." width="100%">
 </picture>
 </a>
 
-**PayRadar** · 2.4.0, closed test on Google Play. Track rent, bills and subscriptions on Android, with local reminders. The source code is private. The screen is a real emulator capture with fictional sample data. [Product page](https://voyagerroctechnologies.com/en/urunler/payradar/)
+**PayRadar** · closed test on Google Play. Track rent, bills and subscriptions on Android, with local reminders. The source code is private. The screen is a real emulator capture with fictional sample data; the app interface is in Turkish. [Product page](https://voyagerroctechnologies.com/en/urunler/payradar/)
 
 <a href="https://github.com/Voyagerroc/voyagerroc-forge">
 <picture>
@@ -36,7 +36,7 @@ I build Android apps that work offline and small tools for developers, as Voyage
 </picture>
 </a>
 
-**Voyagerroc Forge** · v0.2.1, experimental. A local workflow that turns intent into inspectable patches, with pinned source, scoped edits and named static checks. The screen is a capture of Forge's own interface on a local fixture. [Repository](https://github.com/Voyagerroc/voyagerroc-forge) · [Release v0.2.1](https://github.com/Voyagerroc/voyagerroc-forge/releases/tag/v0.2.1)
+**Voyagerroc Forge** · v0.2.1, experimental. A local workflow that turns intent into inspectable patches, with pinned source, scoped edits and named static checks. The screen is a capture of Forge's own interface on a local fixture. [Repository](https://github.com/Voyagerroc/voyagerroc-forge) · [Release&nbsp;v0.2.1](https://github.com/Voyagerroc/voyagerroc-forge/releases/tag/v0.2.1)
 
 <a href="https://github.com/Voyagerroc/AptFlow">
 <picture>
@@ -45,7 +45,7 @@ I build Android apps that work offline and small tools for developers, as Voyage
 </picture>
 </a>
 
-**AptFlow** · v0.1.0 pre-release. A Python starter for specialist-tool workflows. The demo runs offline on synthetic data, and the live provider adapters are not implemented. The terminal shows the real output of `python aptflow.py --version` and `python aptflow.py --help`, shortened. [Repository](https://github.com/Voyagerroc/AptFlow) · [Release v0.1.0](https://github.com/Voyagerroc/AptFlow/releases/tag/v0.1.0)
+**AptFlow** · v0.1.0 pre-release. A Python starter for specialist-tool workflows. The demo runs offline on synthetic data, and the live provider adapters are not implemented. The terminal shows the real output of `python aptflow.py --version` and `python aptflow.py --help`, shortened. [Repository](https://github.com/Voyagerroc/AptFlow) · [Release&nbsp;v0.1.0](https://github.com/Voyagerroc/AptFlow/releases/tag/v0.1.0)
 
 ## Also here
 

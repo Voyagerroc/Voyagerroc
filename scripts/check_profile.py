@@ -1,7 +1,7 @@
 """Check the profile pages, their links and their image assets with the Python standard library.
 
 Offline guards: both language files exist and link to each other, relative links and image targets exist,
-images are local files (no external image hosts), every image has alt text, no e-mail address appears in the
+images are local files (no external image hosts), every image has alt text, every light image has its dark twin, both pages show the same images, no e-mail address appears in the
 pages or in CONTRIBUTING.md, and the image files stay inside their size budget."""
 from __future__ import annotations
 
@@ -143,6 +143,32 @@ def is_remote(target):
     return bool(parsed.scheme or parsed.netloc)
 
 
+def asset_slugs(text):
+    """Image names a page uses, without folder, extension, language or theme: 'assets/work-forge-en-dark.webp' -> 'work-forge'."""
+    slugs = set()
+    for _line, target, _alt in extract_images(text):
+        if is_remote(target):
+            continue
+        stem = Path(urlsplit(target).path).stem
+        match = re.fullmatch(r"(.+)-(en|tr)-(light|dark)", stem)
+        if match:
+            slugs.add(match.group(1))
+    return slugs
+
+
+def theme_pair_issues(name, text):
+    """Every light image the page uses needs its dark twin, and the other way round."""
+    issues = []
+    used = {Path(urlsplit(target).path).name for _line, target, _alt in extract_images(text) if not is_remote(target)}
+    for image in sorted(used):
+        match = re.fullmatch(r"(.+-(?:en|tr))-(light|dark)(\.\w+)", image)
+        if match:
+            twin = f"{match.group(1)}-{'dark' if match.group(2) == 'light' else 'light'}{match.group(3)}"
+            if twin not in used:
+                issues.append(f"{name}: {image} is used without its twin {twin}")
+    return issues
+
+
 def validate_profile(root):
     """Policy guards for the whole profile. Returns (links, issues) over every page."""
     root = Path(root).resolve()
@@ -165,6 +191,13 @@ def validate_profile(root):
                 issues.append(f"{name}:{line}: {target}: image has empty alt text")
             elif alt is None:
                 issues.append(f"{name}:{line}: {target}: image has no alt attribute")
+    for name, text in texts.items():
+        issues += theme_pair_issues(name, text)
+    if len(texts) == 2 and all(asset_slugs(text) for text in texts.values()):
+        slugs = {name: asset_slugs(text) for name, text in texts.items()}
+        if slugs["README.md"] != slugs["README.tr.md"]:
+            different = sorted(slugs["README.md"] ^ slugs["README.tr.md"])
+            issues.append("README.md and README.tr.md use different images: " + ", ".join(different))
     other = {"README.md": "README.tr.md", "README.tr.md": "README.md"}
     for name, partner in other.items():
         if name in texts and not any(link.target.split("#")[0] == partner for link in extract_links(texts[name])):
