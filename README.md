@@ -1,59 +1,68 @@
-<div align="center">
-<img src="./banner.svg" alt="Erol Taşcı · Voyagerroc Technologies" width="100%" />
-</div>
+<p align="right"><a href="README.tr.md">Türkçe</a></p>
 
-# Erol Taşcı · Voyagerroc Technologies
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-en-dark.webp">
+  <img src="assets/banner-en-light.webp" alt="Erol Tasci, Voyagerroc Technologies: Android apps that work offline, and small tools for developers, beside a real PayRadar screen with fictional sample data." width="100%">
+</picture>
 
-I build local developer tools, inspectable AI workflows and offline Android apps.
-Yerel geliştirici araçları, incelenebilir yapay zekâ iş akışları ve çevrimdışı Android uygulamaları geliştiriyorum.
+I build Android apps that work offline and small tools for developers, as Voyagerroc Technologies. I write the scope down before the work starts, and each project below says what is finished and what is not.
 
-[Website / Ürünler](https://voyagerroctechnologies.com) · [About / Hakkımda](https://voyagerroctechnologies.com/erol-tasci/) · [Email](mailto:erol@voyagerroctechnologies.com)
+[Website](https://voyagerroctechnologies.com/en/) · [Contact](https://voyagerroctechnologies.com/en/legal/contact/) · [Türkçe](README.tr.md)
 
-## Selected projects / Seçilmiş projeler
+## Selected work
 
-| Project | What works / Çalışan kapsam | Try it / İncele |
-| --- | --- | --- |
-| **[VoyagerRelay](https://github.com/Voyagerroc/notion-ai-skill)** | Local-agent workflow and prompt packaging for the separate Notion AI bridge. / Yerel ajan iş akışı ve istem paketleme. | [Setup and boundaries](https://github.com/Voyagerroc/notion-ai-skill#readme) |
-| **[Voyagerroc Forge](https://github.com/Voyagerroc/voyagerroc-forge)** | Experimental, single-user patch workflow with pinned source, scoped edits and named static checks. / Deneysel, yerel yama iş akışı. | [Offline local demo](https://github.com/Voyagerroc/voyagerroc-forge#try-it-in-two-minutes) |
-| **[AptFlow](https://github.com/Voyagerroc/AptFlow)** | Python starter with a synthetic, account-free storyboard workflow. Live provider adapters remain stubs. / Hesapsız sentetik demo; canlı adaptörler henüz uygulanmadı. | [Offline quickstart](https://github.com/Voyagerroc/AptFlow#quickstart) |
-| **[LaserDeck PTT](https://github.com/Voyagerroc/LaserDeck)** | Android/Kotlin phone-to-phone Bluetooth communication: push-to-talk, calls, messages and photos. / Telefonlar arası Bluetooth iletişim. | [Product and access status](https://voyagerroctechnologies.com/urunler/laserdeck/) |
-| **[notion2api](https://github.com/Voyagerroc/notion2api)** | Python/FastAPI bridge and CLI with a SQLite task queue. Uses an unofficial Notion web integration. / Ayrı çalıştırılabilir köprü ve CLI. | [Installation](https://github.com/Voyagerroc/notion2api#readme) |
-| **[Corporate website](https://github.com/Voyagerroc/voyagerroc-technologies-website)** | Bilingual product catalogue on Cloudflare Workers. / İki dilli ürün kataloğu. | [Live site](https://voyagerroctechnologies.com) |
-| **[Yason Terraces](https://github.com/Voyagerroc/yason-terraces)** | Architectural hospitality showcase. / Mimari konaklama vitrini. | [Live preview](https://voyagerroc.github.io/yason-terraces/) |
+<a href="https://github.com/Voyagerroc/LaserDeck">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/work-laserdeck-en-dark.webp">
+  <img src="assets/work-laserdeck-en-light.webp" alt="LaserDeck, v2.1.0 pre-release APK: push-to-talk between two phones over Bluetooth, beside a real emulator screenshot of the app in its idle state." width="100%">
+</picture>
+</a>
 
-**PayRadar** is a native Android payment and subscription tracker (Kotlin, Compose, Room); its former web app is retired. Source access is private. See the [public product page and access status](https://voyagerroctechnologies.com/urunler/payradar/).
+**LaserDeck** · v2.1.0 pre-release APK. Push-to-talk between two phones over Bluetooth. No internet or account. The screen is a real capture from the 2.1.0 debug build on an Android emulator, idle because no second phone was connected. [Repository](https://github.com/Voyagerroc/LaserDeck) · [Release v2.1.0](https://github.com/Voyagerroc/LaserDeck/releases/tag/v2.1.0) · [Product page](https://voyagerroctechnologies.com/en/urunler/laserdeck/)
 
-A source repository, a local demo and a publicly available release are different stages. Each project's documentation describes its current scope and limitations. / Kaynak, yerel demo ve genel dağıtım ayrı aşamalardır; güncel erişim ve sınırlar proje sayfalarında açıklanır.
+<a href="https://voyagerroctechnologies.com/en/urunler/payradar/">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/work-payradar-en-dark.webp">
+  <img src="assets/work-payradar-en-light.webp" alt="PayRadar, 2.4.0, closed test on Google Play: track rent, bills and subscriptions on Android, beside a real emulator screen with fictional sample data." width="100%">
+</picture>
+</a>
 
-## Open-source contributions / Açık kaynak katkıları
+**PayRadar** · 2.4.0, closed test on Google Play. Track rent, bills and subscriptions on Android, with local reminders. The source code is private. The screen is a real emulator capture with fictional sample data. [Product page](https://voyagerroctechnologies.com/en/urunler/payradar/)
 
-Merged upstream contributions / Dış projelerde birleştirilen katkılar:
+<a href="https://github.com/Voyagerroc/voyagerroc-forge">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/work-forge-en-dark.webp">
+  <img src="assets/work-forge-en-light.webp" alt="Voyagerroc Forge, v0.2.1, experimental: a local workflow that turns intent into inspectable patches, beside a real capture of its workspace." width="100%">
+</picture>
+</a>
 
-- [lithent #122 — document the SSR package](https://github.com/superlucky84/lithent/pull/122)
-- [Islet #211 — add area and pressure unit conversions](https://github.com/goprocker/Islet/pull/211)
-- [Opgit #12 — trim the search query](https://github.com/elisAITech/Opgit/pull/12)
+**Voyagerroc Forge** · v0.2.1, experimental. A local workflow that turns intent into inspectable patches, with pinned source, scoped edits and named static checks. The screen is a capture of Forge's own interface on a local fixture. [Repository](https://github.com/Voyagerroc/voyagerroc-forge) · [Release v0.2.1](https://github.com/Voyagerroc/voyagerroc-forge/releases/tag/v0.2.1)
 
-In review when this profile was updated: [Mintmap #20 — all-gap CLI output](https://github.com/mohamedmoatazsec/mintmap/pull/20) and [dyadMLM #181 — contrast-column documentation](https://github.com/Pascal-Kueng/dyadMLM/pull/181). These are open PRs; opening approval is separate from merge approval.
+<a href="https://github.com/Voyagerroc/AptFlow">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/work-aptflow-en-dark.webp">
+  <img src="assets/work-aptflow-en-light.webp" alt="AptFlow, v0.1.0 pre-release: a Python starter for specialist-tool workflows, beside real terminal output of its version and help commands." width="100%">
+</picture>
+</a>
 
-## Contribute / Katkıda bulun
+**AptFlow** · v0.1.0 pre-release. A Python starter for specialist-tool workflows. The demo runs offline on synthetic data, and the live provider adapters are not implemented. The terminal shows the real output of `python aptflow.py --version` and `python aptflow.py --help`, shortened. [Repository](https://github.com/Voyagerroc/AptFlow) · [Release v0.1.0](https://github.com/Voyagerroc/AptFlow/releases/tag/v0.1.0)
 
-Small, reproducible improvements are welcome. Read the contribution guide and check the issue discussion before starting. / Küçük, tekrar üretilebilir iyileştirmeler için önce katkı kılavuzunu ve issue tartışmasını okuyun.
+## Also here
 
-| Project | Contribution guide / Kılavuz | Starter issues / Başlangıç işleri |
-| --- | --- | --- |
-| [Forge](https://github.com/Voyagerroc/voyagerroc-forge) | [Forge CONTRIBUTING](https://github.com/Voyagerroc/voyagerroc-forge/blob/main/CONTRIBUTING.md) | [Forge open good-first issues](https://github.com/Voyagerroc/voyagerroc-forge/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) |
-| [AptFlow](https://github.com/Voyagerroc/AptFlow) | [AptFlow CONTRIBUTING](https://github.com/Voyagerroc/AptFlow/blob/main/CONTRIBUTING.md) | [AptFlow open good-first issues](https://github.com/Voyagerroc/AptFlow/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) |
+- [yason-terraces](https://github.com/Voyagerroc/yason-terraces): a static showcase site for an architectural hospitality project. [Live preview](https://voyagerroc.github.io/yason-terraces/)
+- [voyagerroc-technologies-website](https://github.com/Voyagerroc/voyagerroc-technologies-website): the source of the studio's website, hosted on Cloudflare Workers.
+- [notion-ai-skill](https://github.com/Voyagerroc/notion-ai-skill): agent instructions and installers for an unofficial local Notion AI bridge.
+- [notion2api](https://github.com/Voyagerroc/notion2api): an unofficial Python command-line tool and local API bridge for Notion AI. It needs your own eligible account.
 
-An issue label does not promise assignment, a response time or a merge. / Etiket; görev ataması, yanıt süresi veya birleştirme sözü değildir.
+## Upstream contributions
 
-## How I work / Çalışma biçimim
+Pull requests to other projects that were merged:
 
-I use AI assistants for implementation, review and documentation, and report the checks actually run. Human review and project-specific validation remain necessary. / Uygulama, inceleme ve dokümantasyonda yapay zekâ yardımı kullanıyorum; gerçekten çalıştırılan kontrolleri bildiriyorum.
+- [lithent #122](https://github.com/superlucky84/lithent/pull/122): add a README for the SSR package
+- [Islet #211](https://github.com/goprocker/Islet/pull/211): add area and pressure kinds to the Units tool
+- [Opgit #12](https://github.com/elisAITech/Opgit/pull/12): trim the search query before filtering
+- [dyadMLM #181](https://github.com/Pascal-Kueng/dyadMLM/pull/181): say where the `.member_contrast_*` columns may be used
 
-VoyagerRelay and notion2api depend on eligible Notion access, quotas and service behavior. They do not guarantee free inference, fixed model availability or production suitability. See [cost and availability](https://github.com/Voyagerroc/notion-ai-skill#cost-and-availability).
+---
 
-## Profile maintenance / Profil bakımı
-
-[Run the offline link and asset checks](CONTRIBUTING.md). External URL checks are optional and distinguish missing pages from rate limits or temporary failures.
-
-[MIT](LICENSE) © 2026 Erol Tasci
+Voyagerroc Technologies · [voyagerroctechnologies.com](https://voyagerroctechnologies.com/en/)
