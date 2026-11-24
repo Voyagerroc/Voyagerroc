@@ -1,8 +1,8 @@
 <p align="right"><a href="README.md">English</a></p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-v2-tr-dark.webp">
-  <img src="assets/banner-v2-tr-light.webp" alt="Erol Tasci, Voyagerroc Technologies: çevrimdışı çalışan Android uygulamaları ve geliştiriciler için küçük araçlar; yanında kurgusal örnek verili gerçek bir PayRadar ekranı." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-v3-tr-dark.webp">
+  <img src="assets/banner-v3-tr-light.webp" alt="Erol Tasci, Voyagerroc Technologies: çevrimdışı çalışan Android uygulamaları ve geliştiriciler için küçük araçlar; yanında kurgusal örnek verili gerçek bir PayRadar ekranı." width="100%">
 </picture>
 
 Ben Erol Tasci. Voyagerroc Technologies adıyla çevrimdışı çalışan Android uygulamaları ve geliştiriciler için küçük araçlar yapıyorum. İşe başlamadan önce kapsamı yazıyorum; aşağıdaki her proje neyin tamamlandığını, neyin tamamlanmadığını kendisi söyler.
@@ -22,12 +22,12 @@ Ben Erol Tasci. Voyagerroc Technologies adıyla çevrimdışı çalışan Androi
 
 <a href="https://voyagerroctechnologies.com/urunler/payradar/">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/work-payradar-v2-4-0-tr-dark.webp">
-  <img src="assets/work-payradar-v2-4-0-tr-light.webp" alt="PayRadar, 2.4.0 sürümü, Google Play kapalı test: borçlar ve alacaklar tek akışta, gün özetiyle; yanında kurgusal örnek verili gerçek bir emülatör ekranı." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/work-payradar-v2-4-1-tr-dark.webp">
+  <img src="assets/work-payradar-v2-4-1-tr-light.webp" alt="PayRadar, 2.4.1 sürümü, Google Play kapalı test: borçlar ve alacaklar tek akışta, gün özetiyle; yanında kurgusal örnek verili gerçek bir emülatör ekranı." width="100%">
 </picture>
 </a>
 
-**PayRadar** · Google Play'de kapalı test, 2.4.0 sürümü. Ödeyeceklerinizi ve alacaklarınızı tek akışta izleyin; gün özeti, takvim ve plan da var, hatırlatmalar cihazda çalışır. Kaynak kodu özeldir. Ekran, kurgusal örnek verili gerçek bir emülatör görüntüsüdür. [Ürün sayfası](https://voyagerroctechnologies.com/urunler/payradar/)
+**PayRadar** · 2.4.1 (22) sürümü, 24 Kasım 2026'dan beri Google Play kapalı testte (Alpha). Ödeyeceklerinizi ve alacaklarınızı tek akışta izleyin; gün özeti, takvim ve plan da var, hatırlatmalar cihazda çalışır. 2.4.1'de yeni: Ortak Defter Excel dosyası olarak indirilir, silinen defter kalemleri 30 gün boyunca geri getirilebilir ve Defter açıkken ekran görüntüsü alınmaz (Ayarlar'dan kapatılabilir). Kaynak kodu özeldir. Ekran, 2.4.1 sürümünün kurgusal örnek verili gerçek bir emülatör görüntüsüdür. [Ürün sayfası](https://voyagerroctechnologies.com/urunler/payradar/)
 
 <a href="https://github.com/Voyagerroc/voyagerroc-forge">
 <picture>
