@@ -27,7 +27,7 @@ I'm Erol Tasci. I build Android apps that work offline and small tools for devel
 </picture>
 </a>
 
-**PayRadar** · version 2.4.1 (22), Google Play closed test (Alpha) since 24 November 2026. Follow what you owe and what you are owed in one flow, with a day summary, calendar and plan, and local reminders. New in 2.4.1: the Shared Ledger downloads as an Excel file, deleted ledger entries can be restored for 30 days, and screenshots are blocked while the ledger is open (this can be turned off in Settings). The source code is private. The screen is a real emulator capture of 2.4.1 with fictional sample data; the app interface is in Turkish. [Product page](https://voyagerroctechnologies.com/en/products/payradar/) · [60-second screen tour](https://voyagerroctechnologies.com/assets/demos/payradar-native-241-20261124-en.mp4)
+**PayRadar** · version 2.4.1 (22), Google Play closed test (Alpha) since 24 November 2026. Follow what you owe and what you are owed in one flow, with a day summary, calendar and plan, and local reminders. New in 2.4.1: the Shared Ledger downloads as an Excel file, deleted ledger entries can be restored for 30 days, and screenshots are blocked while the ledger is open (this can be turned off in Settings). Version 2.4.2 (23) was sent to Google review on 25 November 2026: much faster with many records, and sync downloads nothing when nothing changed. The source code is private. The screen is a real emulator capture of 2.4.1 with fictional sample data; the app interface is in Turkish. [Product page](https://voyagerroctechnologies.com/en/products/payradar/) · [60-second screen tour](https://voyagerroctechnologies.com/assets/demos/payradar-native-241-20261124-en.mp4)
 
 <a href="https://github.com/Voyagerroc/voyagerroc-forge">
 <picture>
